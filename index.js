@@ -6,7 +6,7 @@ var score=0;
 function welcomeMsg(){
   log(chk.bgCyan("************HTML Quiz Game************"));
   var goodName = rlSync.question("What is your  name? ");
-  log(chk.bold.underline.green("Welcome "+ goodName + " to the Html Quiz Game!!!"))
+  log(chk.bold.underline.green("Welcome "+ goodName + " to the Frontend Quiz Game!!!"))
   log(chk.red("Note: select the answer type the options from the question"))
   console.log("Lets Start the Quiz!!!");
   log(chk.green("-------------------------"))
